@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Comparing strings of same length, erroring elsewise.
+
 string1="$1"
 string2="$2"
 counter=0
