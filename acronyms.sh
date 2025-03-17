@@ -8,5 +8,5 @@ strip() {
 }
 for var in "$@"
 do
-strip "$var" | sed -e 's/\-/ /g' -e 's/\B\w*//g;s/\s//g' | tr '[:lower:][:upper:]' '[:upper:][:upper:]'
+strip "$var" | sed -e 's/\-/ /g' -e 's/\B\w*//g;s/\s//g' | tr '[:lower:] [:upper:]'
 done
